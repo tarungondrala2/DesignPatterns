@@ -34,7 +34,7 @@ namespace DesignPatterns
         public readonly List<string> entries = new List<string>();
 
         public static int count;
-
+         
         public void AddEntry(string item)
         {
             entries.Add($"{++count}. {item}");
