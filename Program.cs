@@ -7,8 +7,11 @@
             /*SingleResponsibility singleResponsibility = new SingleResponsibility();
             singleResponsibility.Start();*/
 
-            OpenClose openClose = new OpenClose();
-            openClose.Start();
+            /*OpenClose openClose = new OpenClose();
+            openClose.Start();*/
+
+            LiskovSubstitution liskovSubstitution = new LiskovSubstitution();
+            liskovSubstitution.Start();
 
             Console.WriteLine("Hello, World!");
             Console.ReadKey();
